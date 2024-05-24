@@ -1,0 +1,210 @@
+body {
+  font-family: "Inter";
+}
+
+/* NAVBAR START */
+
+.nav-item {
+  margin-left: 2rem;
+}
+
+.nav-link {
+  font-weight: 600;
+  color: #667085;
+}
+.nav-link:hover {
+  font-weight: 800;
+  color: black;
+}
+
+.dropdown-item {
+  color: #667085;
+}
+
+.nav-btn-login {
+  border: none;
+  background-color: transparent;
+  margin-right: 1rem;
+  font-weight: 600;
+  color: #667085;
+}
+
+.nav-btn-signup {
+  background-color: #7f56d9;
+  border: none;
+  color: white;
+  padding: 10px 18px 10px 18px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.nav-btn-signup:hover {
+  color: black;
+}
+.nav-btn-login:hover {
+  color: black;
+}
+
+/* NAVBAR END */
+
+/* BANNER START */
+.banner {
+  background-color: #f9f5ff;
+}
+
+.banner-content {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.banner-text {
+  margin-top: 5rem;
+  color: #6941c6;
+  background-color: #f3ebff;
+  padding: 4px 12px 4px 12px;
+  border-radius: 16px;
+  font-weight: 500;
+}
+
+.title {
+  margin: 1rem;
+}
+
+.banner-content h1 {
+  font-size: 48px;
+  color: #42307d;
+  font-weight: 600;
+}
+
+.sub-title {
+  margin: 1rem;
+  color: #6941c6;
+  font-weight: 400;
+}
+
+/* BANNER END */
+
+/* PRODUCT START */
+
+.product {
+  background-image: url("../img/banner-bg.png");
+  background-size: 120% 70%;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.kelas {
+  padding-top: 5rem;
+}
+
+.card {
+  margin: 1rem;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 9px;
+}
+
+.card-body {
+  padding: 20px;
+  p {
+    color: #667085;
+  }
+}
+
+.list-unstyled {
+  padding: 0;
+  list-style: none;
+}
+
+.list-unstyled li {
+  margin-bottom: 10px;
+}
+
+.list-unstyled li img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.price {
+  margin-top: 20px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.new-price {
+  font-weight: bold;
+  padding-left: 7rem;
+  color: #000000;
+}
+
+.btn {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #7F56D9;
+  border-radius: 10px;
+  color: #fff;
+  .btn-daftar:hover {
+    color: #0000;
+  }
+}
+.pagination {
+  justify-content: center;
+  margin-top: 3rem;
+  cursor: pointer;
+  margin-bottom: 3rem;
+}
+
+/* PRODUCT END */
+
+/* FOOTER START */
+
+.footer-list li {
+  list-style-type: none;
+  margin: 1rem auto;
+}
+
+.footer-list a {
+  color: #667085;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.footer-list a:hover {
+  color: black;
+}
+
+.footer-title {
+  color: #98a2b3;
+  font-weight: 600;
+}
+
+.footer {
+  margin-bottom: 2rem;
+}
+
+/* FOOTER END */
+
+/* RESPONSIVE START */
+
+@media screen and (max-width: 431px) {
+  .banner .sub-title {
+    text-align: center;
+  }
+
+  .product .discount {
+    margin-left: 6rem;
+  }
+}
+
+/* RESPONSIVE END */
